@@ -14,7 +14,7 @@ export const Aside = () => {
                     <span className='navAbout goto'><a href="#about" id='gotoa'><i className="fa-solid fa-circle-info"></i></a></span>
                     <span className='navMySkills goto '><a href="#skills" id='gotoa'><i className="fa-brands fa-wirsindhandwerk"></i></a></span>
                     <span className='navProject goto '><a href="#project" id='gotoa'><i className="fa-solid fa-diagram-project"></i></a></span>
-                    <span className='navMiniProject goto '><a href="" id='gotoa'><i className="fa-solid fa-bars-progress"></i></a></span>
+                    <span className='navMiniProject goto '><a href="#miniproject" id='gotoa'><i className="fa-solid fa-bars-progress"></i></a></span>
                     <span className='navContact goto '><a href="#contact" id='gotoa'><i className="fa-solid fa-address-book"></i></a></span>
                 </div>
                 </AnimateAsideChild>

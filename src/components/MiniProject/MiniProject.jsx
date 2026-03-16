@@ -31,7 +31,7 @@ export const MiniProject = () => {
     ]
     return (
         <>
-            <div className="home projects" id='project'>
+            <div className="home projects" id='miniproject'>
                 <div className="title">
                     <i className="fa-brands fa-files-pinwheel"></i>
                     <span className='greetings'>Mini <span className='yellow'>Projects</span> </span>
