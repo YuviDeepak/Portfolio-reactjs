@@ -42,9 +42,9 @@ export const Projects = () => {
                         <h1 className='bottom'>and <span className='yellow'>Solutions</span></h1>
                     </div>
                 </div>
-                 <AnimateCardParent>
-                <div className="projectGrid">
-                   
+                <AnimateCardParent>
+                    <div className="projectGrid">
+
 
                         {
                             projectArray.map((e, index) => (
@@ -60,11 +60,11 @@ export const Projects = () => {
                                 </Animate>
                             ))
                         }
-                    
+
                         <Projectpop pop={pop} setPop={setPop} closePop={() => setPop(null)} />
-                </div>
+                    </div>
                 </AnimateCardParent>
-                
+
             </div>
         </>
     )
