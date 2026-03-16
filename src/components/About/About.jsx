@@ -6,16 +6,6 @@ import AnimateTitle from '../Animate/AnimateTitle'
 import AnimateCardParent from '../Animate/AnimateCardParent'
 
 export const About = () => {
-    const cardVarient = {
-        hidden: {
-            opacity: 0,
-            y: 30
-        },
-        show: {
-            opacity: 1,
-            y: 0
-        }
-    }
 
     return (
         <>
@@ -43,9 +33,8 @@ export const About = () => {
                     </AnimateTitle>
                     <AnimateCardParent>
                         <div className="infodown">
-                                <motion.div className="ct ct-1"
-                                 variants={cardVarient}
-                                >
+                            <Animate>
+                                <div className="ct ct-1">
                                     <div className="left">
                                         <i className="fa-solid fa-bezier-curve"></i>
                                     </div>
@@ -53,9 +42,10 @@ export const About = () => {
                                         <h3 className='infoDownTitle'>Frontend Development</h3>
                                         <p className='infoDownCtn'>Building interactive and responsive user interfaces using modern web technologies.</p>
                                     </div>
-                                </motion.div>
-                                <motion.div className="ct ct-2"
-                                 variants={cardVarient}>
+                                </div>
+                            </Animate>
+                            <Animate>
+                                <div className="ct ct-2">
                                     <div className="left">
                                         <i className="fa-solid fa-database"></i>
                                     </div>
@@ -63,10 +53,10 @@ export const About = () => {
                                         <h3 className='infoDownTitle'>Backend Development</h3>
                                         <p className='infoDownCtn'>Building secure, scalable, and efficient server-side applications and APIs to power modern web platforms.</p>
                                     </div>
-                                </motion.div>
-                                <motion.div className="ct ct-3"
-                                 variants={cardVarient}
-                                >
+                                </div>
+                            </Animate>
+                            <Animate>
+                                <div className="ct ct-3">
                                     <div className="left">
                                         <i className="fa-solid fa-web-awesome"></i>
                                     </div>
@@ -74,10 +64,10 @@ export const About = () => {
                                         <h3 className='infoDownTitle'>Responsive Web Design</h3>
                                         <p className='infoDownCtn'>Designing websites that work seamlessly across all devices and screen sizes.</p>
                                     </div>
-                                </motion.div>
-                                <motion.div className="ct ct-4"
-                                 variants={cardVarient}
-                                >
+                                </div>
+                            </Animate>
+                            <Animate>
+                                <div className="ct ct-4">
                                     <div className="left">
                                         <i className="fa-brands fa-servicestack"></i>
                                     </div>
@@ -85,7 +75,8 @@ export const About = () => {
                                         <h3 className='infoDownTitle'>API Integration</h3>
                                         <p className='infoDownCtn'>Connecting applications with APIs and managing data efficiently using databases.</p>
                                     </div>
-                                </motion.div >
+                                </div>
+                            </Animate>
                         </div>
                     </AnimateCardParent>
 
