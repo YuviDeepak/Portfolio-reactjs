@@ -49,7 +49,6 @@
     z-index: 1;
      overflow: hidden;
      transition: 0.5s;
-     height: 100%;
 
 }
 
@@ -86,9 +85,9 @@
     padding: 20px;
 }
 
-.ct-4{
+/* .ct-4{
     height: 100%;
-}
+} */
 
 
 .infoDownTitle {
