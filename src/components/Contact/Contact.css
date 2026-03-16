@@ -54,7 +54,7 @@
 
 .send{
     border: 1px solid var(--darkBack);
-    box-shadow: 0 0 5px var(--darkBack);
+    box-shadow: 0 0 10px var(--darkBack);
     background-color: transparent;
     font-size: 1.2em;
     border-radius: 15px;
