@@ -1,0 +1,80 @@
+
+.ct {
+    display: flex;
+    background-color: rgba(106, 106, 106, 0.208);
+    border-radius: 10px;
+    padding: 20px;
+    transition: 0.5s ease;
+    position: relative;
+    z-index: 1;
+     overflow: hidden;
+     transition: 0.5s;
+     /* height: 250px; */
+
+}
+
+.ct::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 40%;
+    height: 100%;
+    background: linear-gradient(120deg,transparent,rgba(255, 255, 255, 0.334),transparent);
+    
+    transform: skewX(-35deg);
+}
+
+.ct:hover{
+    transform: translate(10px,-5px);
+}
+
+.ct:hover::before {
+    transition: 1.5s;
+    left: 150%;
+}
+
+
+
+
+.ct .left {
+    font-size: 2em;
+    padding: 10px;
+}
+
+.ct .right {
+    padding: 20px;
+}
+
+
+.touch {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    height: 100%;
+}
+
+.touch .right {
+    display: flex;
+    justify-content: space-around;
+}
+
+.touch .left {
+    display: flex;
+    gap: 20px;
+}
+
+.touch .right .linkIcons {
+    box-shadow: 0 0 1px;
+    height: 70px;
+    width: 70px;
+    display: grid;
+    place-items: center;
+    font-size: 2em;
+    border-radius: 50%;
+    transition: 0.5s;
+}
+
+.touch .right .linkIcons:hover {
+    background-color: var(--yellow);
+}

@@ -13,6 +13,7 @@ export const Animate     = ({children}) => {
     }
     return (
         <motion.div
+        className='ct'
             variants={cardVarient}
 
         >

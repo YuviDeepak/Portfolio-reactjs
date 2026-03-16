@@ -1,5 +1,6 @@
 import React from 'react'
 import { motion } from '../../../node_modules/motion/react'
+import '../Animate/AnimateCard.css'
 import { Lnks } from '../Links/Lnks'
 import { Animate } from '../Animate/AnimateCard'
 import AnimateTitle from '../Animate/AnimateTitle'
@@ -33,19 +34,19 @@ export const About = () => {
                     </AnimateTitle>
                     <AnimateCardParent>
                         <div className="infodown">
-                            <Animate>
-                                <div className="ct ct-1">
+                            <Animate className='ct'>
+                                {/* <div className="ct ct-1"> */}
                                     <div className="left">
                                         <i className="fa-solid fa-bezier-curve"></i>
                                     </div>
                                     <div className="right">
                                         <h3 className='infoDownTitle'>Frontend Development</h3>
                                         <p className='infoDownCtn'>Building interactive and responsive user interfaces using modern web technologies.</p>
-                                    </div>
+                                    {/* </div> */}
                                 </div>
                             </Animate>
-                            <Animate>
-                                <div className="ct ct-2">
+                            <Animate className='ct'>
+                                {/* <div className="ct ct-2"> */}
                                     <div className="left">
                                         <i className="fa-solid fa-database"></i>
                                     </div>
@@ -53,10 +54,10 @@ export const About = () => {
                                         <h3 className='infoDownTitle'>Backend Development</h3>
                                         <p className='infoDownCtn'>Building secure, scalable, and efficient server-side applications and APIs to power modern web platforms.</p>
                                     </div>
-                                </div>
+                                {/* </div> */}
                             </Animate>
-                            <Animate>
-                                <div className="ct ct-3">
+                            <Animate className='ct'>
+                                {/* <div className="ct ct-3"> */}
                                     <div className="left">
                                         <i className="fa-solid fa-web-awesome"></i>
                                     </div>
@@ -64,10 +65,10 @@ export const About = () => {
                                         <h3 className='infoDownTitle'>Responsive Web Design</h3>
                                         <p className='infoDownCtn'>Designing websites that work seamlessly across all devices and screen sizes.</p>
                                     </div>
-                                </div>
+                                {/* </div> */}
                             </Animate>
-                            <Animate>
-                                <div className="ct ct-4">
+                            <Animate className='ct'>
+                                {/* <div className="ct ct-4"> */}
                                     <div className="left">
                                         <i className="fa-brands fa-servicestack"></i>
                                     </div>
@@ -75,7 +76,7 @@ export const About = () => {
                                         <h3 className='infoDownTitle'>API Integration</h3>
                                         <p className='infoDownCtn'>Connecting applications with APIs and managing data efficiently using databases.</p>
                                     </div>
-                                </div>
+                                {/* </div> */}
                             </Animate>
                         </div>
                     </AnimateCardParent>
@@ -89,8 +90,8 @@ export const About = () => {
                     </AnimateTitle>
                     <AnimateCardParent>
                         <div className="infodown">
-                            <Animate>
-                                <div className="clg ct">
+                            <Animate className='ct'>
+                                {/* <div className="clg ct"> */}
                                     <div className="left">
                                         <i className="fa-solid fa-graduation-cap"></i>
                                     </div>
@@ -99,10 +100,10 @@ export const About = () => {
                                         <p className='infoDownCtn'>2021 - 2025</p>
                                         <p className='infoDownCtn'>CGPA - 8.13</p>
                                     </div>
-                                </div>
+                                {/* </div> */}
                             </Animate>
-                            <Animate>
-                                <div className="twele ct">
+                            <Animate className='ct'>
+                                {/* <div className="twele ct"> */}
                                     <div className="left">
                                         <i className="fa-solid fa-book-open-reader"></i>
                                     </div>
@@ -111,10 +112,10 @@ export const About = () => {
                                         <p className='infoDownCtn'>2020 - 2021</p>
                                         <p className='infoDownCtn'>Percentage - 87.71</p>
                                     </div>
-                                </div>
+                                {/* </div> */}
                             </Animate>
-                            <Animate>
-                                <div className="ten ct">
+                            <Animate className='ct'>
+                                {/* <div className="ten ct"> */}
                                     <div className="left">
                                         <i className="fa-solid fa-book-open"></i>
                                     </div>
@@ -123,16 +124,19 @@ export const About = () => {
                                         <p className='infoDownCtn'>2018 - 2019</p>
                                         <p className='infoDownCtn'>Percentage - 77.60</p>
                                     </div>
-                                </div>
+                                {/* </div> */}
                             </Animate>
-                            <Animate>
-                                <div className="touch ct">
+                            <Animate className='touch ct'>
+                                {/* <div className="touch ct"> */}
                                     <div className="left">
                                         <i className="fa-solid fa-braille"></i>
-                                        <h3 className='infoDownTitle'>Stay in touch</h3>
                                     </div>
+                                    <div className="right">
+
+                                        <h3 className='infoDownTitle'>Stay in touch</h3>
                                     <Lnks />
-                                </div>
+                                    </div>
+                                {/* </div> */}
                             </Animate>
 
                         </div>
