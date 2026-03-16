@@ -1,5 +1,7 @@
 import React from 'react'
 
+import cv from "../../assets/Deepak_B_Resume.pdf"
+
 
 
 export const Header = () => {
@@ -56,9 +58,9 @@ export const Header = () => {
                             <i className="fa-solid fa-sun"></i>
                         </div>
                     </div>
-                    {/* <div className="Hireme">
-                        <button>Hire Me <i className="fa-solid fa-envelope"></i></button>
-                    </div> */}
+                    <div className="Hireme">
+                        <a href={cv} download  className='cv'>Download cv</a>
+                    </div>
                     <div className="mininav">
                         <label htmlFor="DetailsToggle"><i className="fa-solid fa-bars"></i></label>
 

@@ -10,6 +10,7 @@ import './components/Contact/Contact.css'
 import './components/Projects/Projects.css'
 import'./components/Projectpop/Projectpop.css'
 import './components/MiniProject/MiniProject.css'
+import './components/Resume/Resume.css'
 import { Header } from './components/Header/Header'
 import { Aside } from './components/Aside/Aside'
 import { Home } from './components/Home/Home'
@@ -18,6 +19,7 @@ import { Skills } from './components/Skills/Skills'
 import { Contact } from './components/Contact/Contact'
 import { Projects } from './components/Projects/Projects'
 import { MiniProject } from './components/MiniProject/MiniProject'
+import Resume from './components/Resume/Resume'
 
 function App() {
 
@@ -32,6 +34,7 @@ function App() {
           <Skills />
           <Projects />
           <MiniProject />
+          <Resume />
           <Contact />
         </div>
        

@@ -1,0 +1,17 @@
+.resumeWrapper{
+    /* border: 1px solid red; */
+    display: grid;
+    place-items: center;
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+}
+
+
+iframe{
+    width: 100%;
+    height: 700px;
+    border: none;
+    border: 10px solid var(--darkBack);
+    border-radius: 20px;
+}

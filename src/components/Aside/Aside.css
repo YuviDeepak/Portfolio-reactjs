@@ -205,6 +205,25 @@
     left: 110%;
     opacity: 1;
 }
+.navRes::after{
+    position: absolute;
+    content: "Resume";
+    padding: 10px 20px;
+    width: max-content;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0%;
+    background-color: var(--yellow);
+    font-size: 0.8em;
+    border-radius: 20px;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.navRes:hover::after{
+    left: 110%;
+    opacity: 1;
+}
 
 .navContact::after{
     position: absolute;
