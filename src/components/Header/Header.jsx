@@ -34,6 +34,7 @@ export const Header = () => {
         // document.querySelectorAll(".skillCard").forEach((ele)=>{
         //     ele.classList.toggle("light")
         // })
+        document.querySelector(".projects").classList.toggle("Light")
         document.querySelector(".contact").classList.toggle("light")
         document.querySelector(".contactBox").classList.toggle("light")
     }
