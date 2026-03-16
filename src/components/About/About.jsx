@@ -55,8 +55,7 @@ export const About = () => {
                                     </div>
                                 </motion.div>
                                 <motion.div className="ct ct-2"
-                                 variants={cardVarient}
-                                >
+                                 variants={cardVarient}>
                                     <div className="left">
                                         <i className="fa-solid fa-database"></i>
                                     </div>
