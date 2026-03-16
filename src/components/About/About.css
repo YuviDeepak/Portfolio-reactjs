@@ -37,7 +37,7 @@
 
 
 
-/* 
+
 .ct {
     display: flex;
     background-color: rgba(106, 106, 106, 0.208);
@@ -83,11 +83,11 @@
 
 .ct .right {
     padding: 20px;
-} */
+}
 
-/* .ct-4,.ct-2{
+.ct-4,.ct-2{
     height: 100%;
-} */
+}
 
 
 .infoDownTitle {
