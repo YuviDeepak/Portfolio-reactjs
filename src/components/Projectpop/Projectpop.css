@@ -1,7 +1,6 @@
 .popFull{
     background-color:rgba(255, 255, 255, 0.29);
     backdrop-filter: blur(10px);
-    
     position: absolute;
     top: 0%;
     left: 0;
@@ -10,17 +9,18 @@
     display: flex;
     justify-content: center;
     border-radius: 20px;
+    align-items: center;
 }
 
 .popContainer{
-    /* border: 1px solid red; */
+    border: 1px solid red;
     padding: 20px;
     display: flex;
     flex-direction: column;
     gap: 20px;
-    width: max-content;
-    height: max-content;
+    
     position: relative;
+    background-color: black;
     
 }
 
@@ -55,5 +55,11 @@
     border: 1px solid red;
     width: 100%;
     height: 500px;
+}
+
+.popContainer .popImage img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
 }
 

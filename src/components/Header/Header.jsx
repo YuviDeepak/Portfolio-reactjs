@@ -57,9 +57,9 @@ export const Header = () => {
                             <i className="fa-solid fa-sun"></i>
                         </div>
                     </div>
-                    <div className="Hireme">
+                    {/* <div className="Hireme">
                         <button>Hire Me <i className="fa-solid fa-envelope"></i></button>
-                    </div>
+                    </div> */}
                     <div className="mininav">
                         <label htmlFor="DetailsToggle"><i className="fa-solid fa-bars"></i></label>
 

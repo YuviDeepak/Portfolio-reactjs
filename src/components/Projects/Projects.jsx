@@ -8,6 +8,16 @@ export const Projects = () => {
 
     const projectArray = [
         {
+            projectImage: "https://img.freepik.com/free-photo/view-3d-video-game-controller_23-2151005793.jpg",
+            projectName: "E-commerce website",
+            projectLink: "https://gamax-sepia.vercel.app/"
+        },
+        {
+            projectImage: "https://t4.ftcdn.net/jpg/06/48/37/73/360_F_648377395_8tt4I8sEKvLSjqe2XKQZX0zm33HjtPsm.jpg",
+            projectName: "E-commerce website",
+            projectLink: "https://gamax-sepia.vercel.app/"
+        },
+        {
             projectImage: 1,
             projectName: "E-commerce website",
             projectLink: "https://gamax-sepia.vercel.app/"
@@ -51,10 +61,10 @@ export const Projects = () => {
                             ))
                         }
                     
-
+                        <Projectpop pop={pop} setPop={setPop} closePop={() => setPop(null)} />
                 </div>
                 </AnimateCardParent>
-                <Projectpop pop={pop} setPop={setPop} closePop={() => setPop(null)} />
+                
             </div>
         </>
     )
