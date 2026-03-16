@@ -147,6 +147,7 @@ body.hi {
 .about.light{
   background-color: transparent;
   color: black;
+  border-radius: 0;
 }
 
 .ct.light{
