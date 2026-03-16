@@ -1,0 +1,173 @@
+.skills{
+    /* border: 1px solid red; */
+}
+
+.title{
+    /* border: 1px solid red; */
+}
+
+.skillBBOOXX{
+    /* border: 1px solid red; */
+    display: grid;
+    place-items: center;
+}
+
+.skillGrid{
+    /* border: 1px solid red; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    padding: 20px 50px;
+    width: 90%;
+}
+
+.skillGrid .skillCard{
+    height: 200px;
+    
+    border-radius: 10px;
+    overflow: hidden;
+    transition: 0.5s;
+
+}
+
+
+
+.skillCard .cardTop{
+    height: 70%;
+    display: grid;
+    place-items: center;
+    
+}
+
+.cardTop .topIcons{
+    overflow: hidden;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5em;
+    background-color: var(--darkBack);
+    border-radius: 10px;
+    transition: 0.5s;
+    position: relative;
+}
+
+
+
+
+
+
+
+.topIcons::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 50%;
+    height: 100%;
+    background: linear-gradient(120deg,transparent,rgba(255, 255, 255, 0.5),transparent);
+    transform: skewX(-35deg);
+}
+
+.skillCard:hover .topIcons::before {
+    transition: 1s;
+    left: 150%;
+}
+
+
+.skillCard .cardBottom{
+    height: 30%;
+    /* border: 1px solid red; */
+    display: grid;
+    place-items: center;
+    gap: 20px;
+    text-align: center;
+}
+
+.skillCard:hover .cardBottom{
+    transition: 1s;
+    color: var(--yellow);
+}
+
+.fa-html5{
+    color: orangered;
+}
+
+.fa-css3{
+    
+    color: rgb(44, 44, 252);
+}
+
+.fa-bootstrap{
+    color: rgb(164, 12, 164);
+}
+
+.fa-square-js{
+    color: yellow;
+}
+
+.fa-js{
+    color: rgb(0, 199, 202);
+}
+
+.fa-react{
+    color: rgb(44, 44, 252);
+}
+
+.fa-vuejs{
+    color: gold;
+}
+
+.fa-bolt-lightning{
+    color: white;
+}
+
+.fa-node-js{
+    color: greenyellow;
+}
+
+.fa-network-wired{
+    color: rgb(119, 212, 65);
+}
+
+.fa-compass{
+    color: rgb(31, 192, 31);
+}
+
+
+
+
+@media screen and (max-width:576px) {
+    .skillGrid{
+        padding: 20px 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 20px;
+}
+
+.skillGrid .skillCard{
+    height: 200px;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 100%;
+}
+
+.cardTop .topIcons{
+    border-radius: 10px;
+}
+
+.cardTop .topIcons{
+    border-radius: 20px;
+}
+}
+
+
+@media screen and (min-width:576px) and (max-width:768px) {
+    .skillGrid{
+        padding: 20px 20px;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 0px;
+    }
+}
+

@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+  --font: "Exo";
+  --yellow: #ffae00;
+  --darkBack:rgba(106, 106, 106, 0.208);;
+  --lightBack:rgba(0, 0, 0, 0.151);;
+}
+
+
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.386);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--yellow);
+  border-radius: 10px;
+  border: 3px solid rgba(0, 0, 0, 0.923);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #333;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: var(--font);
+}
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  color: white;
+  overflow-x: hidden;
+  overflow-y: auto;
+  background-image: url("https://ovro-react-template-app.vercel.app/assets/bg1-DZM6x_xd.png");
+  background-position: center;
+  background-color: #061d1f;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.containerrr {
+  border: none;
+  display: flex;
+  justify-content: center;
+
+}
+
+
+
+.whole {
+  position: sticky;
+  top: 100px;
+  height: max-content;
+  width: max-content;
+}
+
+body.hi {
+  color: black;
+  background-image: url("https://ovro-react-template-app.vercel.app/assets/bg2-CINZkkOS.png");
+  background-position: right;
+  background-color: #fefefe;
+  background-color: transparent;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.goto.gotoLight {
+  color: black;
+  background-color: rgba(255, 255, 255, 0.062);
+}
+
+.personalCard.personalCardLight {
+  /* background-color: var(--lightBack); */
+  color: black;
+
+}
+
+.links .linkIcons.linkIconsLight {
+  /* background-color: var(--lightBack); */
+}
+
+.letsWorkTogetherBtn.Light {
+  /* background-color: var(--lightBack); */
+  color: black;
+
+}
+
+.cmprt.Light {
+  background: url("https://sdmntprcentralindia.oaiusercontent.com/files/00000000-5430-7208-93fb-322ec9759c24/raw?se=2026-03-08T07:25:35Z&sp=r&sv=2026-02-06&sr=b&scid=dc8b6832-e2b7-4be8-b947-172e0633f8bf&skoid=d5627e4c-566b-4761-a954-54993b0ed17b&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-03-08T01:36:51Z&ske=2026-03-09T01:36:51Z&sks=b&skv=2026-02-06&sig=MxtKztte%2B81kpaq18f6qNcmYypTftV2SYGON3lrNUqk%3D") center no-repeat rgba(0, 0, 0, 0.341);
+}
+
+.projects.Light{
+  color: black;
+}
+
+.vj {
+  width: 100%;
+  color: white;
+  /* height: 100vh; */
+  padding: 30px 10px;
+}
+
+@media screen and (max-width:576px) {
+  body {
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
+
+  .containerrr {
+    flex-wrap: wrap;
+    padding: 10px;
+  }
+
+  .vj {
+    padding: 30px 0;
+  }
+}
+
+@media screen and (max-width:768px) {
+  body {
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
+
+  .containerrr {
+    flex-wrap: wrap;
+  }
+}
+
+.home.llight {
+  background-color: transparent;
+  color: black;
+}
+
+.about.light{
+  background-color: transparent;
+  color: black;
+}
+
+.ct.light{
+  /* background-color: var(--lightBack); */
+}
+
+.infoUp.light{
+  /* background-color: var(--lightBack); */
+}
+
+.skills.light{
+    color: black;
+}
+
+.skillCard.light{
+    color: black;
+    /* background-color:var(--lightBack); */
+}
+

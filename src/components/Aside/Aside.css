@@ -1,0 +1,268 @@
+.whole{
+    display: flex;
+    gap: 30px;
+    padding: 20px  20px 20px 50px;
+    align-items: center;
+    position: sticky;
+    top: 90px;
+    color: white;
+}
+
+.aside{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+}
+
+.personalCard{
+    width: 450px;
+    height: 650px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: var(--darkBack);
+    border-radius: 15px;
+    box-shadow: 0 0 1px white;
+}
+
+.personalCard .Myimg{
+    width: 100%;
+    height: 400px;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.personalCard .Myimg img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.personalCard .presonalInfo{
+    display: flex;
+;
+    flex-direction: column;
+    gap: 10px;
+    padding:5px  20px;
+}
+
+.presonalInfo .name{
+    text-align: center;
+    font-size: 2em;
+    font-weight: 900;
+    padding: 0;
+    margin: 0;
+}
+
+.presonalInfo .info{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.links{
+    display: flex;
+    justify-content: space-around;
+}
+
+.links .linkIcons{
+    padding: 10px 12px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.062);
+    box-shadow: 0 0 1px white;
+    transition: 0.5s;
+    font-size: 1.2em
+}
+
+.links .linkIcons:hover{
+    background-color: var(--yellow);
+}
+
+
+.aside  .goto{
+    padding: 15px;
+    font-size: 1.6em;
+    background-color: var(--darkBack);
+    box-shadow: 0 0 1px white;
+    /* color: white; */
+    border-radius: 10px;
+    transition: 0.5s;
+    position: relative;
+}
+
+.aside .goto a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.goto:hover{
+    background-color: var(--yellow);
+}
+
+.navHome::after{
+    position: absolute;
+    content: "Home";
+    width: max-content;
+    padding: 10px 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0%;
+    background-color: var(--yellow);
+    font-size: 0.8em;
+    border-radius: 20px;
+    opacity: 0;
+    transition: 0.5s;
+    
+}
+
+.navHome:hover::after{
+    left: 110%;
+    opacity: 1;
+}
+
+.navAbout::after{
+    position: absolute;
+    content: "About";
+    width: max-content;
+    padding: 10px 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0%;
+    background-color: var(--yellow);
+    font-size: 0.8em;
+    border-radius: 20px;
+    opacity: 0;
+    transition: 0.5s;
+    
+}
+
+.navAbout:hover::after{
+    left: 110%;
+    opacity: 1;
+}
+
+.navMySkills::after{
+    position: absolute;
+    content: "My Skills";
+    padding: 10px 20px;
+    width: max-content;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0%;
+    background-color: var(--yellow);
+    font-size: 0.8em;
+    border-radius: 20px;
+    opacity: 0;
+    transition: 0.5s;
+    
+}
+
+.navMySkills:hover::after{
+    left: 110%;
+    opacity: 1;
+}
+
+.navProject::after{
+    position: absolute;
+    content: "My Project";
+    padding: 10px 20px;
+    width: max-content;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0%;
+    background-color: var(--yellow);
+    font-size: 0.8em;
+    border-radius: 20px;
+    opacity: 0;
+    transition: 0.5s;
+    
+}
+
+.navProject:hover::after{
+    left: 110%;
+    opacity: 1;
+}
+
+.navMiniProject::after{
+    position: absolute;
+    content: "Mini Project";
+    padding: 10px 20px;
+    width: max-content;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0%;
+    background-color: var(--yellow);
+    font-size: 0.8em;
+    border-radius: 20px;
+    opacity: 0;
+    transition: 0.5s;
+    
+}
+
+.navMiniProject:hover::after{
+    left: 110%;
+    opacity: 1;
+}
+
+.navContact::after{
+    position: absolute;
+    content: "Contact";
+    padding: 10px 20px;
+    width: max-content;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0%;
+    background-color: var(--yellow);
+    font-size: 0.8em;
+    border-radius: 20px;
+    opacity: 0;
+    transition: 0.5s;
+    
+}
+
+.navContact:hover::after{
+    left: 110%;
+    opacity: 1;
+}
+
+
+
+@media screen and (max-width:576px) {
+    .whole{
+        flex-wrap: wrap;
+         padding: 30px 10px 10px 10px;
+         gap: 0;
+         position: static;
+    }
+
+    .aside{
+        display: none;
+    }
+    .personalCard{
+        width: 340px;
+        gap: 10px;
+    }
+}
+
+@media screen and (min-width:576px) and (max-width:768px) {
+    .whole{
+        flex-wrap: wrap;
+         padding: 30px 10px 10px 10px;
+         gap: 0;
+         position: static;
+    }
+
+    .aside{
+        display: none;
+    }
+    .personalCard{
+        width: 600px;
+        gap: 30px;
+    }
+    .links{
+        gap: 40px;
+        justify-content: center;
+    }
+}

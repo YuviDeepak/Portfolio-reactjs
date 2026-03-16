@@ -1,0 +1,190 @@
+.home {
+    /* border: 1px solid red; */
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: white;
+
+}
+
+.title {
+    /* border: 1px solid blue; */
+    font-size: 2.5em;
+    word-spacing: 5px;
+    font-weight: 700;
+
+}
+
+.title .fa-files-pinwheel {
+    color: var(--yellow);
+    margin-right: 5px;
+}
+
+/* .title .nnaammee {
+    font-size: 2em;
+} */
+
+.content {
+    /* border: 1px solid red; */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.content .heading {
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    width: 60%;
+    font-weight: 900;
+}
+
+.content .heading h1 {
+    /* border: ; */
+    margin: 0;
+    padding: 0;
+    font-size: 3rem;
+    padding: 0 10px;
+}
+
+.content .heading .top {
+    /* border: 1px solid red; */
+    text-align: start;
+}
+
+.content .heading .bottom {
+    /* border: 1px solid red; */
+    text-align: end;
+}
+
+.content .para {
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: end;
+
+}
+
+.content .para p {
+    /* border: 1px solid red; */
+    padding: 0;
+    margin: 0;
+    max-width: 700px;
+    font-size: 1.1em;
+    word-spacing: 3px;
+    padding: 10px;
+}
+
+.components {
+    /* border: 1px solid red; */
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    padding: 20px;
+}
+
+.components .right {
+    /* border: 1px solid red; */
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+    background-color: var(--darkBack);
+    background-size: contain;
+    background-blend-mode: color-burn;
+    font-size: 4em;
+    display: grid;
+    place-items: center;
+    color: var(--yellow);
+}
+
+
+
+
+.letsWorkTogether {
+    text-align: center;
+    padding: 10px;
+
+}
+
+.letsWorkTogether button {
+    width: 90%;
+    height: 130px;
+    background-color: var(--darkBack);
+    border: none;
+    color: white;
+    font-size: 3em;
+    border-radius: 30px;
+    transition: 0.5s;
+}
+
+.letsWorkTogether button:hover {
+    background-color: var(--yellow);
+}
+
+
+.yellow {
+    color: var(--yellow);
+}
+
+@media screen and (max-width:576px) {
+    .content .heading h1 {
+        font-size: 2rem;
+    }
+
+    .content .heading .bottom {
+        text-align: start;
+    }
+
+    .title {
+        font-size: 1.5rem;
+    }
+
+    .content .para {
+        justify-content: center;
+    }
+
+    .content .para p {
+        font-size: 1rem;
+        text-align: justify;
+        max-width: max-content;
+    }
+
+    .home {
+        /* border: 1px solid; */
+        padding: 10px;
+        /* padding-right:10px; */
+    }
+
+    .letsWorkTogether button {
+        font-size: 2.5em;
+        height: 140px;
+    }
+
+    .content .heading {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        justify-content: center;
+        width: max-content;
+        font-weight: 900;
+    }
+}
+
+@media screen and (min-width:576px) and (max-width:768px) {
+    .content .heading{
+        width: max-content;
+    }
+    .content .heading h1 {
+        font-size: 4rem;
+    }
+
+    .content .heading .bottom {
+        text-align: start;
+    }
+}

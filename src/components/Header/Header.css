@@ -1,0 +1,156 @@
+
+header {
+  padding: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 20px;
+  position: relative;
+}
+
+header .logo {
+  height: 60px;
+  width: 100px;
+  border-radius:20px;
+  overflow: hidden;
+}
+
+.logo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+nav {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  position: relative;
+}
+
+.backgroundChange {
+  padding: 5px;
+  display: flex;
+  gap: 20px;
+  font-size: 1em;
+  border-radius: 30px;
+  background-color: rgba(255, 255, 255, 0.282);
+}
+
+.dark {
+  padding: 3px 5px;
+  border-radius: 50%;
+
+  color: black;
+  background-color: white;
+  transition: 0.5s ease;
+}
+
+.light {
+  padding: 3px 5px;
+  border-radius: 50%;
+  color: black;
+  background-color: white;
+  transition: 0.5s ease;
+}
+
+.Hireme {
+  border-left: 2px solid  var(--yellow);;
+  padding: 10px 10px 10px 20px;
+}
+
+
+
+.Hireme button {
+  padding: 0.5em 1.4em;
+  border-radius: 20px;
+  border: none;
+  color: white;
+  background-color: var(--yellow);
+  transition: 0.5s;
+  font-size: 1.2em;
+}
+
+.Hireme button:hover {
+  background-color: rgb(0, 0, 0);
+  color: var(--yellow);
+}
+
+.mininav {
+  color: white;
+  font-size: 1.1em;
+  padding: 5px 7px;
+  border-radius: 50%;
+  background-color: var(--yellow);
+}
+
+
+
+
+
+.yes {
+  color: black;
+  background-color: var(--yellow);
+}
+
+.backgroundChange.nxt {
+  background-color: rgba(0, 0, 0, 0.252);
+}
+
+.menu{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  position: absolute;
+  top: 100%;
+  right: 0;
+  padding: 40px 60px;
+  background-color: var(--yellow);
+  justify-content: center;
+  align-items: center;
+  font-size: 1.3em;
+  border-radius: 20px;
+  transform: scale(0);
+  transition: 0.5s ease;
+  color: white;
+  z-index: 50;
+}
+
+#DetailsToggle{
+  display: none;
+}
+
+#DetailsToggle:checked~.menu{
+  transform: scale(1);
+}
+
+
+
+@media screen and (max-width:576px) {
+
+  header{
+    gap: 10px;
+    position: sticky;
+    top: 0;
+    z-index: 99;
+    
+  }
+  
+  .Hireme button {
+    font-size: 1em;
+    padding: 10px;
+  }
+  
+  nav{
+      gap: 10px;
+
+  }
+
+  header .logo {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+}
