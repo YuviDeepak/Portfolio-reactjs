@@ -58,8 +58,10 @@
     background-color: transparent;
     font-size: 1.2em;
     border-radius: 15px;
-    display: grid;
-    place-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
     width: 200px;
     color: var(--yellow);
     padding: 10px;
