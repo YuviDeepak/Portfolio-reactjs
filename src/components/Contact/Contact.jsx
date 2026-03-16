@@ -23,6 +23,7 @@ export const Contact = () => {
                         <input type="text" placeholder='Phone Number' id='phno'/>
                         <input type="text" placeholder='Subject' id='subject'/>
                         <textarea placeholder='Message' id='msg'></textarea>
+                        <button>Send <i class="fa-solid fa-paper-plane"></i></button>
                     </div>
                 </div>
             </div>
