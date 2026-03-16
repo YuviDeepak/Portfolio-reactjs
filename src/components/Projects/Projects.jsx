@@ -38,7 +38,7 @@ export const Projects = () => {
 
                         {
                             projectArray.map((e, index) => (
-                                <Animate>
+                                <Animate key={index}>
                                     <div className="projectCard" onClick={() => setPop(e)} key={index}>
                                         <div className="projectImage ">
                                             <img src={e.projectImage} alt="" />

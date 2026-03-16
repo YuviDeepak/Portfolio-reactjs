@@ -16,8 +16,8 @@
 }
 
 .personalCard{
-    width: 450px;
-    height: 650px;
+    width: 400px;
+    height: 500px;
     padding: 20px;
     display: flex;
     flex-direction: column;
