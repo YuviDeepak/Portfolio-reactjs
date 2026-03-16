@@ -34,7 +34,6 @@
     position: relative;
     z-index: 1;
     overflow: hidden;
-    height: 250px;
     transition: transform 0.5s ease;
 }
 
@@ -74,7 +73,7 @@
 
 .ct-4,
 .ct-2 {
-    height: 250px;
+    
 }
 
 .infoDownTitle {
