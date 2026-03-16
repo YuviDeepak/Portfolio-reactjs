@@ -34,12 +34,12 @@ export const MiniProject = () => {
             <div className="home projects" id='project'>
                 <div className="title">
                     <i className="fa-brands fa-files-pinwheel"></i>
-                    <span className='greetings'>My <span className='yellow'>Projects</span> </span>
+                    <span className='greetings'>Mini <span className='yellow'>Projects</span> </span>
                 </div>
                 <div className="content">
                     <div className="heading">
-                        <h1 className='top'>Innovative Ideas</h1>
-                        <h1 className='bottom'>and <span className='yellow'>Solutions</span></h1>
+                        <h1 className='top'>Think Smart. </h1>
+                        <h1 className='bottom'>Build <span className='yellow'>Smart.</span></h1>
                     </div>
                 </div>
                 <AnimateCardParent>
