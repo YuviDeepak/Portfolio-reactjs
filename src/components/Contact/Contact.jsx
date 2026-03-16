@@ -1,9 +1,13 @@
 import React from 'react'
+import AnimateTitle from '../Animate/AnimateTitle'
 
 export const Contact = () => {
     return (
         <>
             <div className="contact home about" id='contact'>
+                <AnimateTitle>
+
+                
                 <div className="title">
                     <i className="fa-brands fa-files-pinwheel"></i>
                     <span className='greetings'>Co<span className='yellow'>nta</span>ct</span>
@@ -26,6 +30,7 @@ export const Contact = () => {
                     </div>
                         <button className='send'>Send <i class="fa-solid fa-paper-plane"></i></button>
                 </div>
+                </AnimateTitle>
             </div>
         </>
     )
