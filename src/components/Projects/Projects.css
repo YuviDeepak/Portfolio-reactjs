@@ -57,10 +57,11 @@
     text-align: center;
     background-color: transparent;
     padding: 20px;
+    color: var(--yellow);
 }
 
 .prj:hover {
-    color: var(--yellow);
+    color: rgba(0, 0, 0, 0.325);
 }
 
 @media screen and (max-width:576px) {
