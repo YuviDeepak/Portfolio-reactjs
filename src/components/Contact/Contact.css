@@ -59,6 +59,8 @@
     font-size: 1.2em;
     border-radius: 15px;
     width: 100px;
+    color: var(--yellow);
+    padding: 20px;
 }
 
 ::placeholder{
