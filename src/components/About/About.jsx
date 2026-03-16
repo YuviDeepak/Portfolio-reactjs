@@ -51,7 +51,7 @@ export const About = () => {
                                     </div>
                                     <div className="right">
                                         <h3 className='infoDownTitle'>Backend Development</h3>
-                                        <p className='infoDownCtn'>Creating secure and scalable server-side applications and APIs.</p>
+                                        <p className='infoDownCtn'>Building secure, scalable, and efficient server-side applications and APIs to power modern web platforms.</p>
                                     </div>
                                 </div>
                             </Animate>
