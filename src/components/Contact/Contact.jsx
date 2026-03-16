@@ -24,7 +24,7 @@ export const Contact = () => {
                         <input type="text" placeholder='Subject' id='subject'/>
                         <textarea placeholder='Message' id='msg'></textarea>
                     </div>
-                        <button>Send <i class="fa-solid fa-paper-plane"></i></button>
+                        <button className='send'>Send <i class="fa-solid fa-paper-plane"></i></button>
                 </div>
             </div>
         </>
