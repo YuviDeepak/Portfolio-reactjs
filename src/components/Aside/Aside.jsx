@@ -1,5 +1,5 @@
 import React from 'react'
-import { Lnks } from '../links/Links'
+import { Lnks } from '../Links/Lnks'
 import AnimateAside from '../Animate/AnimateAside'
 import AnimateAsideChild from '../Animate/AnimateAsideChild'
 
