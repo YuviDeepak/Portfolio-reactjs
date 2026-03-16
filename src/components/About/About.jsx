@@ -50,7 +50,7 @@ export const About = () => {
                                         <i className="fa-solid fa-bezier-curve"></i>
                                     </div>
                                     <div className="right">
-                                        <h3 className='infoDownTitle'>FFrontend Development</h3>
+                                        <h3 className='infoDownTitle'>Frontend Development</h3>
                                         <p className='infoDownCtn'>Building interactive and responsive user interfaces using modern web technologies.</p>
                                     </div>
                                 </motion.div>
