@@ -3,8 +3,10 @@
 :root {
   --font: "Exo";
   --yellow: #ffae00;
-  --darkBack:rgba(106, 106, 106, 0.208);;
-  --lightBack:rgba(0, 0, 0, 0.151);;
+  --darkBack: rgba(106, 106, 106, 0.208);
+  ;
+  --lightBack: rgba(0, 0, 0, 0.151);
+  ;
 }
 
 
@@ -101,11 +103,11 @@ body.hi {
   background: url("https://sdmntprcentralindia.oaiusercontent.com/files/00000000-5430-7208-93fb-322ec9759c24/raw?se=2026-03-08T07:25:35Z&sp=r&sv=2026-02-06&sr=b&scid=dc8b6832-e2b7-4be8-b947-172e0633f8bf&skoid=d5627e4c-566b-4761-a954-54993b0ed17b&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-03-08T01:36:51Z&ske=2026-03-09T01:36:51Z&sks=b&skv=2026-02-06&sig=MxtKztte%2B81kpaq18f6qNcmYypTftV2SYGON3lrNUqk%3D") center no-repeat rgba(0, 0, 0, 0.341);
 }
 
-.projects.Light{
+.projects.Light {
   color: black;
 }
 
-.prj.Light{
+.prj.Light {
   color: black;
 }
 
@@ -149,26 +151,35 @@ body.hi {
   border-radius: 0;
 }
 
-.about.light{
+.about.light {
   background-color: transparent;
   color: black;
   border-radius: 0;
 }
 
-.ct.light{
+.ct.light {
   /* background-color: var(--lightBack); */
 }
 
-.infoUp.light{
+.infoUp.light {
   /* background-color: var(--lightBack); */
 }
 
-.skills.light{
-    color: black;
+.skills.light {
+  color: black;
 }
 
-.skillCard.light{
-    color: black;
-    /* background-color:var(--lightBack); */
+.skillCard.light {
+  color: black;
+  /* background-color:var(--lightBack); */
 }
 
+
+.contact.light {
+  color: black;
+}
+
+.contactBox.light {
+  color: black;
+  /* background-color: rgba(0, 0, 0, 0.258); */
+}
