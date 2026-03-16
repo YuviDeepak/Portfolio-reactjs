@@ -58,7 +58,9 @@
     background-color: transparent;
     font-size: 1.2em;
     border-radius: 15px;
-    width: 100px;
+    display: grid;
+    place-items: center;
+    width: 200px;
     color: var(--yellow);
     padding: 20px;
 }
