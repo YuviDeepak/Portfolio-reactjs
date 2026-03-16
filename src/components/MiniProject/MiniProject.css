@@ -5,3 +5,9 @@
     grid-template-columns: 1fr 1fr 1fr;
     position: relative;
 }
+
+@media screen and (max-width:576px) {
+    .miniProject{
+        grid-template-columns: 1fr 1fr;
+    }
+}
