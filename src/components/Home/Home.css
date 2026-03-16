@@ -11,7 +11,7 @@
 
 .title {
     /* border: 1px solid blue; */
-    font-size: 2.5em;
+    font-size: 2.5rem;
     word-spacing: 5px;
     font-weight: 700;
 
@@ -23,7 +23,7 @@
 }
 
 /* .title .nnaammee {
-    font-size: 2em;
+    font-size: 2rem;
 } */
 
 .content {
@@ -75,7 +75,7 @@
     padding: 0;
     margin: 0;
     max-width: 700px;
-    font-size: 1.1em;
+    font-size: 1.1rem;
     word-spacing: 3px;
     padding: 10px;
 }
@@ -99,7 +99,7 @@
     background-color: var(--darkBack);
     background-size: contain;
     background-blend-mode: color-burn;
-    font-size: 4em;
+    font-size: 4rem;
     display: grid;
     place-items: center;
     color: var(--yellow);
@@ -120,7 +120,7 @@
     background-color: var(--darkBack);
     border: none;
     color: white;
-    font-size: 3em;
+    font-size: 3rem;
     border-radius: 30px;
     transition: 0.5s;
 }
@@ -164,7 +164,7 @@
     }
 
     .letsWorkTogether button {
-        font-size: 2.5em;
+        font-size: 2.5rem;
         height: 140px;
     }
 
@@ -183,7 +183,7 @@
         width: max-content;
     }
     .content .heading h1 {
-        font-size: 4rem;
+        font-size: 4rrem;
     }
 
     .content .heading .bottom {
