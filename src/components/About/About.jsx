@@ -1,6 +1,6 @@
 import React from 'react'
 import { motion } from '../../../node_modules/motion/react'
-import { Lnks } from '../links/Links'
+import { Lnks } from '../Links/Lnks'
 import { Animate } from '../Animate/AnimateCard'
 import AnimateTitle from '../Animate/AnimateTitle'
 import AnimateCardParent from '../Animate/AnimateCardParent'
