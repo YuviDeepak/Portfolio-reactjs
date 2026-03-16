@@ -62,7 +62,7 @@
     place-items: center;
     width: 200px;
     color: var(--yellow);
-    padding: 20px;
+    padding: 10px;
 }
 
 ::placeholder{
