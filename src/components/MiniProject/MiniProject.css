@@ -1,3 +1,7 @@
-.projectGrid{
+.miniProject {
+    padding: 20px;
+    display: grid;
+    gap: 20px;
     grid-template-columns: 1fr 1fr 1fr;
+    position: relative;
 }

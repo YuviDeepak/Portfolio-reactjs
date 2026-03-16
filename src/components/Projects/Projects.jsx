@@ -61,7 +61,7 @@ export const Projects = () => {
                             ))
                         }
 
-                        <Projectpop pop={pop} setPop={setPop} closePop={() => setPop(null)} />
+                        {/* <Projectpop pop={pop} setPop={setPop} closePop={() => setPop(null)} /> */}
                     </div>
                 </AnimateCardParent>
 

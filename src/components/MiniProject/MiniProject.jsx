@@ -43,7 +43,7 @@ export const MiniProject = () => {
                     </div>
                 </div>
                 <AnimateCardParent>
-                    <div className="projectGrid">
+                    <div className="projectGrid miniProject">
 
 
                         {
@@ -61,7 +61,7 @@ export const MiniProject = () => {
                             ))
                         }
 
-                        <Projectpop pop={pop} setPop={setPop} closePop={() => setPop(null)} />
+                        {/* <Projectpop pop={pop} setPop={setPop} closePop={() => setPop(null)} /> */}
                     </div>
                 </AnimateCardParent>
 
