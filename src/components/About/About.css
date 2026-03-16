@@ -49,6 +49,7 @@
     z-index: 1;
      overflow: hidden;
      transition: 0.5s;
+     height: 100%;
 
 }
 
@@ -83,8 +84,13 @@
 
 .ct .right {
     padding: 20px;
+    height: 100%;
+    width: 100%;
 }
 
+.ct-4{
+    height: 100%;
+}
 
 
 .infoDownTitle {
