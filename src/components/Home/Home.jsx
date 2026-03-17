@@ -7,11 +7,11 @@ import AnimateCardParent from '../Animate/AnimateCardParent'
 export const Home = () => {
     return (
         <>
-            <div className="home" id='home'>
+            <div className="home home1" id='home'>
                 <AnimateTitle>
                     <div className="title">
                         <i className="fa-brands fa-files-pinwheel"></i>
-                        <span className='greetings'>Hi, <span className='yellow nnaammee'>I'm Deepak</span>, Fullstack Developer</span>
+                        <span className='greetings'>Hi, <span className='yellow nnaammee'>I'm Deepak</span>, Mern Stack Developer</span>
                     </div>
                 </AnimateTitle>
 
@@ -37,7 +37,7 @@ export const Home = () => {
                             <i className="fa-brands fa-connectdevelop"></i>
                         </div>
                         <div className="left">
-                            <h1>Aspiring Developer</h1>
+                            <h2>Aspiring Developer</h2>
                         </div>
                     </div>
                 </Animate>

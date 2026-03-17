@@ -16,7 +16,7 @@ font-size:16px;
 
 
 ::-webkit-scrollbar {
-  width: 15px;
+  width: 10px;
 }
 
 ::-webkit-scrollbar-track {
@@ -89,8 +89,7 @@ body.hi {
 }
 
 .personalCard.personalCardLight {
-  /* background-color: var(--lightBack); */
-  color: black;
+    color: black;
 
 }
 

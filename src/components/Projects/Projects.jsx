@@ -10,22 +10,26 @@ export const Projects = () => {
         {
             projectImage: "https://img.freepik.com/free-photo/view-3d-video-game-controller_23-2151005793.jpg",
             projectName: "E-commerce website",
-            projectLink: "https://gamax-sepia.vercel.app/"
+            projectLink: "https://gamax-sepia.vercel.app/",
+            projectTools:["HTML","CSS","JS"]
         },
         {
             projectImage: "https://t4.ftcdn.net/jpg/06/48/37/73/360_F_648377395_8tt4I8sEKvLSjqe2XKQZX0zm33HjtPsm.jpg",
             projectName: "E-commerce website",
-            projectLink: "https://gamax-sepia.vercel.app/"
+            projectLink: "https://gamax-sepia.vercel.app/",
+            projectTools:["HTML","CSS"]
         },
         {
             projectImage: 1,
             projectName: "E-commerce website",
-            projectLink: "https://gamax-sepia.vercel.app/"
+            projectLink: "https://gamax-sepia.vercel.app/",
+            projectTools:["HTML","CSS","JS"]
         },
         {
             projectImage: 1,
             projectName: "E-commerce",
-            projectLink: "https://artic-jewellery.vercel.app/"
+            projectLink: "https://artic-jewellery.vercel.app/",
+            projectTools:["HTML","CSS","JS"]
         }
 
     ]
@@ -38,8 +42,8 @@ export const Projects = () => {
                 </div>
                 <div className="content">
                     <div className="heading">
-                        <h1 className='top'>Innovative Ideas</h1>
-                        <h1 className='bottom'>and <span className='yellow'>Solutions</span></h1>
+                        <h1 className='top'>Innovative Thinking</h1>
+                        <h1 className='bottom'>Practical <span className='yellow'>Solutions</span></h1>
                     </div>
                 </div>
                 <AnimateCardParent>
@@ -50,7 +54,15 @@ export const Projects = () => {
                             projectArray.map((e, index) => (
                                 <Animate key={index}>
                                     <div className="projectCard" onClick={() => setPop(e)} key={index}>
+                                        
                                         <div className="projectImage ">
+                                            <div className="projectCadrDup">
+                                                {
+                                                    e.projectTools.map((ele,index)=>(
+                                                        <p>{ele}</p>
+                                                    ))
+                                                }
+                                        </div>
                                             <img src={e.projectImage} alt="" />
                                         </div>
                                         <div className="projectName" >

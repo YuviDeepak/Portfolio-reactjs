@@ -38,8 +38,8 @@ export const MiniProject = () => {
                 </div>
                 <div className="content">
                     <div className="heading">
-                        <h1 className='top'>Think Smart. </h1>
-                        <h1 className='bottom'>Build <span className='yellow'>Smart.</span></h1>
+                        <h1 className='top'>Turning Ideas into </h1>
+                        <h1 className='bottom'>Interactive <span className='yellow'>Web</span> Solutions</h1>
                     </div>
                 </div>
                 <AnimateCardParent>

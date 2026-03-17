@@ -21,6 +21,7 @@
 
 .contactGrid input {
     height: 40px;
+    width: 100%;
     border-radius: 10px;
     border: none;
     outline: none;
@@ -43,6 +44,7 @@
 .contactGrid #msg {
     background-color: var(--darkBack);
     height: 200px;
+    width: inherit;
     padding-left: 10px;
     padding-top: 10px;
     border-radius: 10px;

@@ -40,7 +40,7 @@ export const About = () => {
                                     </div>
                                     <div className="right">
                                         <h3 className='infoDownTitle'>Frontend Development</h3>
-                                        <p className='infoDownCtn'>Building interactive and responsive user interfaces using modern web technologies.</p>
+                                        <p className='infoDownCtn'>Building responsive and interactive user interfaces using modern web technologies to deliver smooth user experiences.</p>
                                     </div>
                                 </div>
                             </Animate>
@@ -107,7 +107,7 @@ export const About = () => {
                                         <i className="fa-solid fa-book-open-reader"></i>
                                     </div>
                                     <div className="right">
-                                        <h3 className='infoDownTitle'>Higher Secondary Education PCMC</h3>
+                                        <h3 className='infoDownTitle'>Higher Secondary Education</h3>
                                         <p className='infoDownCtn'>2020 - 2021</p>
                                         <p className='infoDownCtn'>Percentage - 87.71</p>
                                     </div>
@@ -119,7 +119,7 @@ export const About = () => {
                                         <i className="fa-solid fa-book-open"></i>
                                     </div>
                                     <div className="right">
-                                        <h3 className='infoDownTitle'>Secondary Education (SSLC)</h3>
+                                        <h3 className='infoDownTitle'>Secondary Education</h3>
                                         <p className='infoDownCtn'>2018 - 2019</p>
                                         <p className='infoDownCtn'>Percentage - 77.60</p>
                                     </div>

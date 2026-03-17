@@ -21,10 +21,38 @@
     overflow: hidden;
 }
 
+
+
 .projectImage {
     /* border: 1px solid red; */
     height: 80%;
      overflow: hidden;
+     position: relative;
+     transition: 0.5 ease;
+}
+
+.projectCadrDup{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.482);
+    gap: 10px;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: var(--yellow);
+    transform: translateY(100%);
+    z-index: 9;
+    transition: 0.5s ease;
+    backdrop-filter: blur(2px);
+}
+
+.projectCard:hover .projectImage .projectCadrDup{
+    transform: translateY(0);
 }
 
 .projectImage img{
@@ -35,7 +63,7 @@
    
 }
 
-.projectImage img:hover{
+.projectCard:hover .projectImage img{
     transform: scale(1.1);
 }
 
