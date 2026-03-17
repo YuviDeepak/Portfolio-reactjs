@@ -59,7 +59,7 @@ export const Projects = () => {
                                             <div className="projectCadrDup">
                                                 {
                                                     e.projectTools.map((ele,index)=>(
-                                                        <p>{ele}</p>
+                                                        <p key={index}>{ele}</p>
                                                     ))
                                                 }
                                         </div>

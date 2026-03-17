@@ -1,6 +1,7 @@
 import React from 'react'
 
 import cv from "../../assets/Deepak_B_Resume.pdf"
+import AnimateCardParent from '../Animate/AnimateCardParent'
 
 
 
@@ -13,23 +14,23 @@ export const Header = () => {
         let light = e.currentTarget.querySelector(".light")
         dark.classList.toggle("yes")
         light.classList.toggle("yes")
-        document.querySelectorAll(".goto").forEach((ele)=>{
+        document.querySelectorAll(".goto").forEach((ele) => {
             ele.classList.toggle("gotoLight")
         })
         document.querySelector(".personalCard").classList.toggle("personalCardLight")
 
-        document.querySelectorAll(".linkIcons").forEach((ele)=>{
+        document.querySelectorAll(".linkIcons").forEach((ele) => {
             ele.classList.toggle("linkIconsLight")
         })
         document.querySelector(".home").classList.toggle("llight")
         document.querySelector(".letsWorkTogetherBtn").classList.toggle("Light")
 
         document.querySelector(".about").classList.toggle("light")
-        document.querySelectorAll(".ct").forEach((ele)=>{
+        document.querySelectorAll(".ct").forEach((ele) => {
             ele.classList.toggle("light")
         })
         document.querySelector(".infoUp").classList.toggle("light")
-        document.querySelectorAll(".aaa").forEach((ele)=>{
+        document.querySelectorAll(".aaa").forEach((ele) => {
             ele.classList.toggle("light")
         })
         document.querySelector(".skills").classList.toggle("light")
@@ -59,21 +60,22 @@ export const Header = () => {
                         </div>
                     </div>
                     <div className="Hireme">
-                        <a href={cv} download  className='cv'>Download cv</a>
+                        <a href={cv} download className='cv'>Download cv</a>
                     </div>
                     <div className="mininav">
                         <label htmlFor="DetailsToggle"><i className="fa-solid fa-bars"></i></label>
 
                     </div>
-                    <input type="checkBox" id='DetailsToggle' />
-                    <div className='menu'>
-                        <span className='Home details'>Home</span>
-                        <span className='About details'>About</span>
-                        <span className='MySkills details'>My Skills</span>
-                        <span className='Project details'>Project</span>
-                        <span className='MiniProject details'>Mini Project</span>
-                        <span className='Contact details'>Contact</span>
-                    </div>
+                            <input type="checkBox" id='DetailsToggle' />
+                        <div className='menu'>
+                            
+                            <a href="#about"><span className='About details'>About</span></a>
+                            <a href="#skills"><span className='MySkills details'>My Skills</span></a>
+                            <a href="#project"><span className='Project details'>Project</span></a>
+                            <a href="#miniproject"><span className='MiniProject details'>Mini Project</span></a>
+                            <a href="#res"><span className='MiniProject details'>Resume</span></a>
+                            <a href="#contact"><span className='Contact details'>Contact</span></a>
+                        </div>
                 </nav>
             </header>
         </>
